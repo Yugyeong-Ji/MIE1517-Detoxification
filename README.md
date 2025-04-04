@@ -7,7 +7,7 @@ python train.py --seed 426 \
                 --learning_rate 1e-4 \
                 --batch_size 32 \
                 --epochs 50 \
-                --prompt_type [PROMPT_TYPE] # 
+                --prompt_type [PROMPT_TYPE] # pred, inst
 ```
 ```bash
 # DS Train
@@ -18,7 +18,7 @@ python train.py --seed 426 \
                 --learning_rate 1e-4 \
                 --batch_size 32 \
                 --epochs 50 \
-                --prompt_type [PROMPT_TYPE] \n # pred, inst
+                --prompt_type [PROMPT_TYPE] \ # pred, inst
                 --use_demo_selection 
 ```
 
